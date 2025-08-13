@@ -15,7 +15,8 @@ i {
 .navbar-logo{
 	padding: 15px;
 	color: #fff;
-	text-shadow: 0px 0px 10px rgba(0,0,0,1);
+	color: rgba(40, 249, 3, 0.986);
+	text-shadow: 0 0 10px rgba(40, 249, 3, 0.986);
 	font-size: 2rem;
 }
 .navbar-mainbg{
@@ -189,7 +190,62 @@ section{
 	height: 60%;
 	animation: shadowei 2s ease-in-out infinite alternate;
 }
-
+.main-container .content{
+	color: gray;
+	width: 40%;
+	min-height: 100px;
+}
+.content h1 {
+	font-size: clamp(1rem,2rem + 5vw,3rem);
+}
+.content h1 span{
+	color: rgba(40, 249, 3, 0.986);
+	text-shadow: 0 0 10px rgba(40, 249, 3, 0.986);
+}
+.content .typewriter{
+	font-weight: 600;
+	font-size: clamp(1rem,1rem + 5vw,2rem);
+}
+.content .typewriter span{
+	color: rgba(40, 249, 3, 0.986);
+	font-size: 2.5rem;
+	text-shadow: 0 0 5px rgba(40, 249, 3, 0.986);
+	position: relative;
+	transition: 0.3s linear;
+}
+.typewriter span::before{
+	content: "WebDeveloper";
+	animation: words 15s infinite;
+}
+.typewriter span::after{
+	content: "";
+	position: absolute;
+	width: calc(100% + 8px);
+	height: 100%;
+	border-left: 3px solid black;
+	animation: cursor 0.6s linear infinite;
+}
+@keyframes cursor{
+	to{
+		border-left: 3ps solid rgba(40, 249, 3, 0.986) ;
+	}
+}
+@keyframes words {
+	0%,33%{
+		content: "WebDeveloper";
+	}
+	34%,66%{
+		content: "Designer";
+	}
+	67%,100%{
+		content: "Software Engineer";
+	}
+	
+}
+.content p{
+	font-size: calmp(0.4rem,0.2rem + 9vw,1rem);
+	margin: 10px 0;
+}
 @keyframes shadowei{
 	0%{
 		filter: drop-shadow(0px 0px 0px  rgba(40, 249, 3, 0.986));
@@ -225,6 +281,7 @@ section{
 	    flex-basis: auto;
 	}
 }
+
 
 
 @media (max-width: 991px){
