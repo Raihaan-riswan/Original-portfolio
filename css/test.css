@@ -131,7 +131,7 @@ i {
 	position: absolute;
 	right: 8px;
 	top: 26px;
-	color: black;
+	color: rgba(40, 249, 3, 0.986);
 	font-size: 2rem;
 	display: none;
 }
@@ -140,7 +140,7 @@ i {
 	position: absolute;
 	right: 10px;
 	top: 0px;
-	color: black;
+	color: rgba(40, 249, 3, 0.986);
 	font-size: 2rem;
 	display: none;
 }
@@ -325,6 +325,44 @@ section{
 
 
 @media (max-width: 991px){
+	body{
+		overflow-y: visible;
+
+	}
+	.navbar-logo{
+		position: absolute;
+		top: 16px;
+		left: 15px;
+		font-size: 1.5rem;
+	}
+	.main-container{
+		display: flex;
+		flex-direction: column;
+
+	}
+	.hamburg,.cancel{
+		display: block;
+
+	}
+	.main-container .content{
+		width: 90%;
+	}
+	.social-link i{
+		width: 2.5rem;
+		height: 2.5rem;
+		font-size: 1.5rem;
+
+	}
+	.main-container .image{
+		width: 80%;
+		margin-bottom: 0px;
+		
+
+	}
+	.main-container .image img{
+		width: 90%;
+		margin-bottom: 0px;
+	}
 	#navbarSupportedContent ul li a{
 		padding: 12px 30px;
 	}
@@ -355,3 +393,4 @@ section{
 		left: -25px;
 	}
 }
+
