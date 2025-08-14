@@ -1,4 +1,9 @@
 // ---------Responsive-navbar-active-animation-----------
+function hamburg(){
+	const navbar = document.querySelector(".dropdown")
+	navbar.style.transform = "translateY(0px)"
+
+}
 function test(){
 	var tabsNewAnim = $('#navbarSupportedContent');
 	var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
