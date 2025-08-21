@@ -27,6 +27,7 @@ i {
 	padding: 0px;
 	box-shadow: -4px 4px 55px 5px rgba(40, 249, 3, 0.986);
 	position: fixed;
+	z-index: 12;
 	width: 100%;
 }
 #navbarSupportedContent{
@@ -364,6 +365,7 @@ p{
 	text-align: center;
 	width: 100%;
 	height: auto;
+	padding-bottom: 100px;
 }
 #Services .ser-div{
 	margin: 0 auto;
@@ -384,9 +386,9 @@ p{
 	padding-top: 20px;
 	margin-top: 30px;
 	transition: 1ms ease-in-out;
-	/* animation: apper linear;
+	animation: apper linear;
 	animation-timeline: view();
-	animation-range: entry 0; */
+	animation-range: entry 0;
 
 }
 #Services .ser-div div:hover{
@@ -420,6 +422,9 @@ p{
 	to{
 		transform: rotate(35deg);
 	}
+}
+#Skills{
+	background: #0A2A45;
 }
 
 
@@ -532,7 +537,7 @@ p{
 	}
 }
 
-/* @keyframes apper{
+@keyframes apper{
 	from{
 		opacity: 0;
 		scale: 0.5;
@@ -543,4 +548,4 @@ p{
 		scale: 1;
 		transform: translateX(0px);
 	}
-} */
+}
