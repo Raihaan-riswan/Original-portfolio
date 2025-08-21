@@ -9,6 +9,7 @@ body{
 * {
 	margin: 0;
 	padding: 0;
+	
 }
 i {
 	margin-right: 10px;
@@ -362,7 +363,7 @@ p{
 	padding-top: 150px;
 	text-align: center;
 	width: 100%;
-	height: 100vh;
+	height: auto;
 }
 #Services .ser-div{
 	margin: 0 auto;
@@ -381,11 +382,17 @@ p{
 	border: solid 1px rgba(40, 249, 3, 0.986);
 	border-radius: 20px;
 	padding-top: 20px;
+	margin-top: 30px;
+	transition: 1ms ease-in-out;
 	/* animation: apper linear;
 	animation-timeline: view();
 	animation-range: entry 0; */
 
 }
+#Services .ser-div div:hover{
+	box-shadow: -1px -2px 26px 0px rgba(40, 249, 3, 0.986);
+}
+
 
 #Services .ser-div div h4{
 	color: #fff;
@@ -402,6 +409,9 @@ p{
 	
 	color: rgba(40, 249, 3, 0.986);
 	animation: rotate ease-in 2s infinite alternate;
+}
+#Services .ser-div div p{
+	font-family: "Acme", sans-serif;
 }
 @keyframes rotate {
 	from{
