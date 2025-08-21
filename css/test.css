@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Roboto', sans-serif;
 	background: white;
