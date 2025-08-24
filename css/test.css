@@ -329,21 +329,11 @@ section{
 	width: auto;
 	border-radius: 25%;
 	box-shadow: 0px 0px 0px 0px rgba(40, 249, 3, 0.986);
-	animation: pad 0.6s linear infinite alternate;
+	
 	
 }
-@keyframes pad{
-	0%{
-		box-shadow: 0px 0px 0px 0px rgba(40, 249, 3, 0.986);
-	}
-	50%{
-		margin-top: 15px;
 
-	}
-	100%{
-		margin-top: 25px;
-	}
-}
+
  h2{
 	color: rgba(40, 249, 3, 0.986);
 	text-shadow: 0 0 10px rgba(40, 249, 3, 0.986);
