@@ -317,7 +317,7 @@ section{
 	padding: 10px;
 	padding-top: 50px;
 	background: #0A2A45;
-	height: 100vh;
+	height: auto;
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
@@ -335,6 +335,7 @@ section{
 
 
  h2{
+	margin-top: 150px;
 	color: rgba(40, 249, 3, 0.986);
 	text-shadow: 0 0 10px rgba(40, 249, 3, 0.986);
 	
