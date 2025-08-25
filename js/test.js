@@ -65,7 +65,9 @@ jQuery(document).ready(function($){
 	// Add active class to target link
 	target.parent().addClass('active');
 });
-
+const percent = 85;
+document.querySelector('.progress').setAttribute('stroke-dasharray', `${percent}, 100`);
+document.querySelector('.percentage').textContent = `${percent}%`;
 
 
 
