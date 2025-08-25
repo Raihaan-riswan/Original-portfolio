@@ -362,7 +362,7 @@ p{
 	margin: 0 auto;
 	height: auto;
 	width: 80%;
-	background: #06192B;            /**/
+	background: #06192B;            
 	
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
