@@ -334,7 +334,7 @@ p {
   padding: 20px;
 }
 #Services {
-  padding-top: 150px;
+  padding-top: 80px;
   text-align: center;
   width: 100%;
   height: auto;
@@ -397,7 +397,7 @@ p {
 #Skills {
   background: #0a2a45;
 
-  padding-top: 150px;
+  padding-top: 100px;
   text-align: center;
   width: 100%;
   height: auto;
@@ -414,7 +414,7 @@ p {
   column-gap: 30px;
 }
 #Skills .skil-div .box {
-  height: auto;
+  height: 400px;
   width: auto;
   background: #0a2a45;
   border: solid 1px rgba(40, 249, 3, 0.986);
@@ -604,7 +604,7 @@ p {
 }
 
 #Project{
-  padding-top: 100px;
+  padding-top: 50px;
 }
 #Project h2{
   
@@ -614,14 +614,14 @@ p {
   margin: 0 auto;
   width: 80%;
   height: auto;
-  background: white;
+  background:  #06192b ;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 30px;
 }
 #Project .Pro-div div{
  margin-top: 0px;
-    height: 200px;
+    height: 300px;
   width: auto;
   background: #0a2a45;
   border: solid 1px rgba(40, 249, 3, 0.986);
@@ -629,12 +629,19 @@ p {
 
   margin-top: 30px;
 }
-#Project .Pro-div div .pimage{
+#Project .Pro-div div img{
   margin-top: 0px;
-  width: 500;
-  height: 100px;
-  background-color: black;
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+  box-shadow: 4px -6px 100px -1px black inset;
   
+  
+}
+h4{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
 }
 
 @media (min-width: 992px) {
@@ -661,7 +668,8 @@ p {
 
 @media (max-width: 991px) {
   #About,
-  #Services {
+  #Services,
+  #Project {
     height: 100%;
   }
   #About .pera {
