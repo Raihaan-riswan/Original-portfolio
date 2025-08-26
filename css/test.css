@@ -407,6 +407,7 @@ p {
   margin: 0 auto;
   height: auto;
   width: 80%;
+  background: #0a2a45;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -429,7 +430,7 @@ p {
   padding: 0;
   margin: 0 auto;
   margin-top: 0;
-
+  
   height: 4rem;
   width: 4rem;
 
@@ -450,7 +451,7 @@ p {
 
 .bg {
   fill: none;
-  stroke: #eee;
+  stroke: #0a2a45;
   stroke-width: 3.8;
 }
 
@@ -602,77 +603,19 @@ p {
   }
 }
 
-
-/* 
-
-
-Demo decoration
-body {
-  width: 800px;
-  max-width: 100%;
-  margin: 0 auto;
+#Project{
+  padding-top: 100px;
+}
+#Project h2{
+  
   text-align: center;
 }
-.flex {
+#Project .Pro-div{
   margin: 0 auto;
-  counter-reset: col;
-  background: #EEE;
-  animation: resize 6s infinite;
+  width: 80%;
+  height: auto;
+  background: white;
 }
-.col {
-  height: 100px;
-  margin: .5em;
-  background: turquoise;
-  counter-increment: col;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  line-height: 100px;
-  
-  &::before {
-    content: "Col " counter(col);
-  }
-}
-
-p {
-  margin-top: 2em;
-  margin-bottom: .5em;
-  font-weight: bold;
-  color: darkturquoise;
-}
-
-div + p {
-  color: darksalmon;  
-}
-
-.flex + p + .flex .col {
-  background: salmon;
-}
-
-
-@media (max-width: 520px) {
-  body::before {
-    content: 'Best on wider screens.';
-    display: block;
-    margin: 1em;
-    fon-weight: bold;
-    color: #444;
-  }
-}
-
-@media (prefers-reduced-motion) {
-  .flex {
-    animation: none;
-  }
-  
-  body::after {
-    content: 'Resize your screen to see how it behaves';
-    display: block;
-    font-weight: bold;
-    color: #444;
-    margin: 2em 0;
-  }
-} */
 
 @media (min-width: 992px) {
   .navbar-expand-custom {
