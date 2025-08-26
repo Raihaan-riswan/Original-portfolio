@@ -615,14 +615,25 @@ p {
   width: 80%;
   height: auto;
   background: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: 30px;
 }
 #Project .Pro-div div{
-  height: 100px;
-  width: 100px;
+ margin-top: 0px;
+    height: 200px;
+  width: auto;
+  background: #0a2a45;
+  border: solid 1px rgba(40, 249, 3, 0.986);
+  border-radius: 20px;
+
+  margin-top: 30px;
 }
-#Project .Pro-div div img{
+#Project .Pro-div div .pimage{
+  margin-top: 0px;
   width: 500;
   height: 100px;
+  background-color: black;
   
 }
 
