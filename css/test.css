@@ -616,6 +616,15 @@ p {
   height: auto;
   background: white;
 }
+#Project .Pro-div div{
+  height: 100px;
+  width: 100px;
+}
+#Project .Pro-div div img{
+  width: 500;
+  height: 100px;
+  
+}
 
 @media (min-width: 992px) {
   .navbar-expand-custom {
