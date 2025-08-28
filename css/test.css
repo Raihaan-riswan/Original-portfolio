@@ -423,14 +423,13 @@ p {
   margin-top: 30px;
   transition: 1ms ease-in-out;
   animation: apper linear;
- 
 }
 #Skills .skil-div .box i {
   font-size: 3rem;
   padding: 0;
   margin: 0 auto;
   margin-top: 0;
-  
+
   height: 4rem;
   width: 4rem;
 
@@ -546,7 +545,6 @@ p {
   animation-range: entry 30% cover 40%;
 }
 
-
 /* pie chart fill animation */
 
 .percentage {
@@ -557,8 +555,6 @@ p {
   animation-timeline: view();
   opacity: 0;
 }
-
-
 
 /* 🔄 Keyframes for pie fill */
 @keyframes fillPie {
@@ -592,10 +588,6 @@ p {
   }
 }
 
-
-
-
-
 /* ✨ Keyframes for text fade-in */
 @keyframes fadeInText {
   to {
@@ -603,47 +595,50 @@ p {
   }
 }
 
-#Project{
-  padding-top: 50px;
+#Project {
+  padding-top: 40px;
+  height: auto;
+  padding-bottom: 100px;
 }
-#Project h2{
-  
+#Project h2 {
   text-align: center;
 }
-#Project .Pro-div{
+#Project .Pro-div {
   margin: 0 auto;
   width: 80%;
   height: auto;
-  background:  #06192b ;
+  background: #06192b;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 30px;
 }
-#Project .Pro-div div{
- margin-top: 0px;
-    height: 300px;
+#Project .Pro-div div {
+  margin-top: 0px;
+  height: 300px;
   width: auto;
   background: #0a2a45;
   border: solid 1px rgba(40, 249, 3, 0.986);
   border-radius: 20px;
 
   margin-top: 30px;
+  transition: 50ms linear;
 }
-#Project .Pro-div div img{
+#Project .Pro-div div:hover{
+  scale: 1.1;
+}
+#Project .Pro-div div img {
   margin-top: 0px;
   width: 100%;
   height: 80%;
   border-radius: 20px;
   box-shadow: 4px -6px 100px -1px black inset;
-  
-  
 }
-h4{
+h4 {
   color: white;
   text-align: center;
   margin-top: 10px;
 }
-#Project .btn2{
+#Project .btn2 {
   width: 100%;
   height: auto;
   background: rgba(255, 255, 255, 0);
@@ -651,9 +646,23 @@ h4{
   text-align: center;
   padding-top: 50px;
 }
-
-
-
+#Project .btn2 #Load {
+  height: 3rem;
+  width: 20rem;
+  border: 2px solid rgba(40, 249, 3, 0.986);
+  background: #06192b;
+  font-size: 1.2rem;
+  color: rgba(40, 249, 3, 0.986);
+  transition: 0.2s linear;
+  border-radius: 50px;
+}
+#Project .btn2 #Load:hover {
+  color:#06192b;
+  scale: 1.1;
+  border: 2px solid rgba(40, 249, 3, 0.986);
+  background-color: rgba(40, 249, 3, 0.986);
+  font-weight: 700;
+}
 
 @media (min-width: 992px) {
   .navbar-expand-custom {
