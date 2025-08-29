@@ -1112,3 +1112,19 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
+/* CSS */
+.raihaan-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  border-top: 1px solid #333;
+}
+
+.raihaan-footer p {
+  margin: 0;
+  opacity: 0.8;
+}
