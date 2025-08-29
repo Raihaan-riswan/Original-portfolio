@@ -90,6 +90,6 @@ $(window).on('load',function () {
 }); */
 
 function Load(){
-	window.open("dashboard.html", "_blank");
+	window.location.href = "dashboard.html";
 
 }
