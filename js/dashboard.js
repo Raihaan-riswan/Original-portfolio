@@ -21,10 +21,30 @@ function closeSidebar() {
 
 // BAR CHART
 
+// thisi is show the html project ok
 
 function Web(){
-  let green = document.querySelector("body");
-  green.style.background="red";
+  const div = document.getElementById("myDiv");
+    if (div.style.display === "none") {
+      div.style.display = "grid";
+    } else {
+      div.style.display = "none";
+    }
+
+    // html maththa project code a podanum
+}
+// edhu css project kku
+function csharp(){
+  const div = document.getElementById("myDiv2");
+    if (div.style.display === "none") {
+      div.style.display = "grid";
+    } else {
+      div.style.display = "none";
+    }
+
+
+
+    // edhu ullukku thaan matha project code a podanum
 }
 function back(){
   window.location.href = "index.html";
