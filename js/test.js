@@ -88,3 +88,8 @@ $(window).on('load',function () {
         }
     })
 }); */
+
+function Load(){
+	window.open("dashboard.html", "_blank");
+
+}
