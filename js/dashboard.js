@@ -26,3 +26,6 @@ function Web(){
   let green = document.querySelector("body");
   green.style.background="red";
 }
+function back(){
+  window.location.href = "index.html";
+}
